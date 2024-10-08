@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* padronização cores */
+html{
+    /* variaveis de cor */
+    --corPrimaria:#017143;
+
+    --corSecundaria:#333;
+
+    --corTerciaria:#fff;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.conteudo{
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteudo .redes{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.conteudo h1{
+    font-size: 40px;
+}
+.redesimgs{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+}
